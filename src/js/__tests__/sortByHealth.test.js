@@ -1,4 +1,4 @@
-import { sortByHealth } from '../basic';
+import sortByHealth from '../sortByHealth';
 
 test('should sort heroes by health', () => {
   const received = [

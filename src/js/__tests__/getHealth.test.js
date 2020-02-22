@@ -1,4 +1,4 @@
-import getHealth from '../basic';
+import getHealth from '../getHealth';
 
 test('should getHealth', () => {
   expect(getHealth({ name: 'user', health: 100 })).toBe('healthy');
